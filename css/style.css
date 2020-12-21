@@ -23,6 +23,13 @@ body{
     margin: 12px;
 }
 .buttons{
+    display: none;
     justify-content: center;
     margin: 5% 0%;
+}
+
+@media (Max-width: 780px){
+    .buttons{
+        display: block;
+    }
 }

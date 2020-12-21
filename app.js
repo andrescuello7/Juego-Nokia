@@ -59,19 +59,18 @@ function escape() {
             alert('ayuda Abajo')
         }
     }
+    
+    // //Derecha Izquierda
+    // JSON.stringify(leftRight);
+    // localStorage.setItem('UnoOne', leftRight);
+    // //Arriba abajo
+    // JSON.stringify(TopRight);
+    // localStorage.setItem('UnoDos', TopRight);
 
-
-    //Derecha Izquierda
-    JSON.stringify(leftRight);
-    localStorage.setItem('UnoOne', leftRight);
-    //Arriba abajo
-    JSON.stringify(TopRight);
-    localStorage.setItem('UnoDos', TopRight);
-
-    function paraFuncionar() {
-        paredes()
-    }
-    paraFuncionar()
+    // function paraFuncionar() {
+    //     paredes()
+    // }
+    // paraFuncionar()
 }
 
 function randomTree() {
